@@ -1,0 +1,128 @@
+New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Tab name & Favicon -->
+        <title>Repositories ‹ EFDerbyshire</title>
+        <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/62307074?v=4" />
+    
+        <!-- Set up meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+        <!-- Set up Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+    
+        <!-- Generic page header and navigation buttons -->
+        <div class="container pt-5 ps-5 pe-5 pb-5">
+            <center>
+                <h1 class="display-1">Repositories</h1>
+                <a href="index.html" class="h5 text-dark text-decoration-none">Back to Home</a>
+                <p>
+                    While this may be an admittedly dismal list of repos, I generally don't maintain all that many public ones. Oftentimes I use private repos for testing and
+                    building personal projects and only use public repos when I need to take advantage of features only available to either public repos or paying users.
+                </p>
+                <p>
+                    In short, my answer to any questions on this page is <i>"I've totally made more stuff, honest"</i>. Whether you believe that or not is up to you really.
+                </p>
+    
+                <!-- Nav Buttons -->
+                <div class="btn-group" role="group" aria-label="Navigation Buttons">
+                    <div class="btn-group" role="group">
+                        <button id="btnRepositoriesDropdown" type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Repositories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnRepositoriesDropdown">
+                            <li><a class="dropdown-item" href="repos.html">View All</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/EFDerbyshire/efderbyshire.github.io" target="_blank">This Website!</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/EFDerbyshire/Experimentation" target="_blank">Personal GitHub Experimentation</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/EFDerbyshire/districtEight" target="_blank">districtEight</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button id="btnWebtoolsDropdown" type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Webtools
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnWebtoolsDropdown">
+                            <li><a class="dropdown-item" href="webtools.html" aria-disabled="true">View All</a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <a href="socials.html" class="btn btn-outline-dark" role="button">My Socials</a>
+                    <a href="contact.html" class="btn btn-outline-dark" role="button">Contact</a>
+                </div>
+                <!-- End of Navigation Buttons -->
+            </center>
+        </div>
+    
+        <!-- Page specific content -->
+        <div class="container pb-5">
+            <div class="accordion" id="repoAccordion">
+                <div class="accordion-item"> <!-- Website Repo -->
+                    <h2 class="accordion-header" id="websiteRepoHeader">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#websiteRepoHeaderCollapse" aria-expanded="false" aria-controls="websiteRepoHeaderCollapse">
+                            <strong>This Website!</strong> <img class="ps-2" alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/EFDerbyshire/efderbyshire.github.io?style=plastic"> <img class="ps-2" alt="Maintenance Status" src="https://img.shields.io/maintenance/yes/2022?style=plastic">
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse show" id="websiteRepoHeaderCollapse" aria-labelledby="websiteRepoHeader">
+                        <div class="accordion-body">
+                            <p>
+                                <strong>The repo responsible for providing the page you're looking at right now.</strong> It's about as impressive as this website is so, you know, temper your expectations a bit.
+                            </p>
+
+                            <p>If you want to steal the <i>extremely high-tech</i> HTML behind this bundle of joy to impress your friends, you can grab the repo <a href="https://github.com/EFDerbyshire/efderbyshire.github.io" target="_blank" class="text-decoration-none">here.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item"> <!-- Experimentation Repo -->
+                    <h2 class="accordion-header" id="experimentationHeader">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#experimentationHeaderCollapse" aria-expanded="false" aria-controls="experimentationHeaderCollapse">
+                            <strong>Experimentation</strong> <img class="ps-2" alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/EFDerbyshire/Experimentation?style=plastic"> <img class="ps-2" alt="Maintenance Status" src="https://img.shields.io/maintenance/yes/2022?style=plastic">
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse show" id="experimentationHeaderCollapse" aria-labelledby="experimentationHeader">
+                        <div class="accordion-body">
+                            <p>
+                                <strong>Used for messing about with GitHub and it's capabilities.</strong> To be frank, the only reason this was public in the first place was so I could take advantage of GitHub pages.
+                                It wasn't until a while after this was set up that I decided to just go all-in and make a website anyway (thanks Unit 10!), so this is kind of irrelevant now? Well, sort of - maybe - not really?
+                                I guess I'll find out sooner or later. Just going to need a new idea to throw into it I guess.
+                            </p>
+    
+                            <p>You can catch this empty disappointment <a href="https://github.com/EFDerbyshire/Experimentation" target="_blank" class="text-decoration-none">here.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item"> <!-- D8 Repo -->
+                    <h2 class="accordion-header" id="districtEightHeader">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#districtEightHeaderCollapse" aria-expanded="false" aria-controls="districtEightHeaderCollapse">
+                            <strong>District Eight</strong> <img class="ps-2" alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/EFDerbyshire/districtEight?style=plastic"> <img class="ps-2" alt="Maintenance" src="https://img.shields.io/maintenance/no/2021?style=plastic">
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse show" id="districtEightHeaderCollapse" aria-labelledby="districtEightHeader">
+                        <div class="accordion-body">
+                            <p>
+                                <strong>Probably the biggest repo I've done alone.</strong> This repo contains a fair quantity of edits for a RPG gamemode for the physics sandbox Garry's Mod that I was making for a community server of the same name, also ran by yours truly. This was an entirely personal project, though
+                                I did receive input from others, every commit to this repo with the exception of some plugins was authored solely by me. That's not to say it's impressive, mind you. Because Garry's Mod uses Lua (not exactly the most difficult language in the world)
+                                every change authored was hardly that difficult an enterprise.
+                            </p>
+    
+                            <p>
+                                Garry's Mod does, however, use this wonderful thing called Derma. The best way to describe Derma is as the <strong>GUI language from hell.</strong>
+                                On top of being counterintuitive, difficult to understand, and honestly just difficult outright, any attempts I made to use it would flop after the first panel or two.
+                            </p>
+    
+                            <p>
+                                Honestly, if you want to know how horrible Derma is to understand and get working, just head over to the <a href="#" class="text-decoration-none">developer docs.</a> I'm sure you'll have a <i>great</i> time there.
+                            </p>
+    
+                            <p>I've since archived this one, but it remains on GitHub <a href="https://github.com/EFDerbyshire/districtEight" target="_blank" class="text-decoration-none">here.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
